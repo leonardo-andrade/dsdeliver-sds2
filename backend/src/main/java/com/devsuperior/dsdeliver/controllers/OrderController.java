@@ -29,7 +29,6 @@ public class OrderController {
 	public ResponseEntity<List<OrderDTO>> findAll() {
 		List<OrderDTO> list = service.findAll();
 		return ResponseEntity.ok().body(list);
-
 	}
 
 	@PostMapping
