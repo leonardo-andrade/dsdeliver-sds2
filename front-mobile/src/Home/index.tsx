@@ -19,8 +19,8 @@ function Home() {
       </Text>
     </View>
     <View style={styles.footer}>
-      <RectButton style={styles.button} onPress={}>
-        <text style={styles.buttonText}>VER PEDIDOS</text>
+      <RectButton style={styles.button} onPress={handleOnPress}>
+        <Text style={styles.buttonText}>VER PEDIDOS</Text>
       </RectButton>      
     </View>
     </>
